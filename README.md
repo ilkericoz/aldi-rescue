@@ -2,6 +2,12 @@
 
 Personalised food-rescue emails for ALDI customers. Combines near-expiry product data, live weather, and AI copy to send the right deal to the right person at the right moment.
 
+**2nd place** at the AIIS Hackathon (ALDI International IT Services), Budapest, 23 April 2026, a one-day team build.
+
+## Team and result
+
+Built in one day as a team, with commits from [tiyuk99](https://github.com/tiyuk99), Levente Dagdelen and [ilkericoz](https://github.com/ilkericoz). The team placed 2nd. Ilker wrote the Claude API copy module (`backend/ai_copy.py`), which writes each email's subject line, intro and per-product blurbs from the ranked deals and the weather, and refreshed the promo email template (`templates/email.html`).
+
 ## Quick start
 
 Two processes — the FastAPI backend and the Vite dev server for the dashboard.
